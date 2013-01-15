@@ -1,0 +1,1372 @@
+#############################################################
+##                     phenix.xtriage                      ##
+##                                                         ##
+##     P.H. Zwart, R.W. Grosse-Kunstleve & P.D. Adams      ##
+##                                                         ##
+#############################################################
+#phil __OFF__
+
+Date 2011-02-02 Time 16:20:02 PST -0800 (1296692402.33 s)
+
+
+##-------------------------------------------##
+## WARNING:                                  ##
+## Number of residues unspecified            ##
+##-------------------------------------------##
+
+
+Effective parameters: 
+#phil __ON__
+scaling {
+  input {
+    asu_contents {
+      n_residues = None
+      n_bases = None
+      n_copies_per_asu = None
+    }
+    xray_data {
+      file_name = "point1.mtz"
+      obs_labels = None
+      calc_labels = None
+      unit_cell = 92.1740036 92.1740036 46.2140007 90 90 120
+      space_group = "P 6"
+      high_resolution = None
+      low_resolution = None
+      reference {
+        data {
+          file_name = None
+          labels = None
+          unit_cell = None
+          space_group = None
+        }
+        structure {
+          file_name = None
+        }
+      }
+    }
+    parameters {
+      reporting {
+        verbose = 1
+        log = "xtriage.log"
+        ccp4_style_graphs = True
+      }
+      misc_twin_parameters {
+        missing_symmetry {
+          sigma_inflation = 1.25
+        }
+        twinning_with_ncs {
+          perform_analyses = False
+          n_bins = 7
+        }
+        twin_test_cuts {
+          low_resolution = 10
+          high_resolution = None
+          isigi_cut = 3
+          completeness_cut = 0.85
+        }
+      }
+    }
+    optional {
+      hklout = None
+      hklout_type = mtz sca *mtz_or_sca
+      label_extension = "massaged"
+      aniso {
+        action = *remove_aniso None
+        final_b = *eigen_min eigen_mean user_b_iso
+        b_iso = None
+      }
+      outlier {
+        action = *extreme basic beamstop None
+        parameters {
+          basic_wilson {
+            level = 1e-06
+          }
+          extreme_wilson {
+            level = 0.01
+          }
+          beamstop {
+            level = 0.001
+            d_min = 10
+          }
+        }
+      }
+      symmetry {
+        action = detwin twin *None
+        twinning_parameters {
+          twin_law = None
+          fraction = None
+        }
+      }
+    }
+  }
+  gui {
+    result_file = None
+  }
+}
+#phil __END__
+
+
+Symmetry, cell and reflection file content summary
+
+Miller array info: point1.mtz:I,SIGI,merged
+Observation type: xray.amplitude
+Type of data: double, size=46807
+Type of sigmas: double, size=46807
+Number of Miller indices: 46807
+Anomalous flag: False
+Unit cell: (92.174, 92.174, 46.214, 90, 90, 120)
+Space group: P 6 (No. 168)
+Systematic absences: 0
+Centric reflections: 2035
+Resolution range: 26.6083 1.37297
+Completeness in resolution range: 0.997953
+Completeness with d_max=infinity: 0.997762
+
+##----------------------------------------------------##
+##                    Basic statistics                ##
+##----------------------------------------------------##
+
+
+Matthews coefficient and Solvent content statistics
+
+Number of residues unknown, assuming 50% solvent content
+
+----------------------------------------------------------------
+|              Best guess :  207  residues in the asu          |
+----------------------------------------------------------------
+Completeness and data strength analyses
+
+  The following table lists the completeness in various resolution
+  ranges, after applying a I/sigI cut. Miller indices for which
+  individual I/sigI values are larger than the value specified in
+  the top row of the table, are retained, while other intensities
+  are discarded. The resulting completeness profiles are an indication
+  of the strength of the data.
+
+
+----------------------------------------------------------------------------------------
+| Res. Range   | I/sigI>1  | I/sigI>2  | I/sigI>3  | I/sigI>5  | I/sigI>10 | I/sigI>15 |
+----------------------------------------------------------------------------------------
+| 26.61 - 3.38 | 99.8%     | 99.7%     | 99.5%     | 99.1%     | 98.6%     | 97.7%     |
+|  3.38 - 2.69 | 99.9%     | 99.5%     | 99.0%     | 98.3%     | 96.4%     | 94.8%     |
+|  2.69 - 2.35 | 99.8%     | 98.9%     | 97.9%     | 96.9%     | 93.1%     | 89.9%     |
+|  2.35 - 2.13 | 99.8%     | 98.6%     | 97.9%     | 96.1%     | 91.9%     | 87.7%     |
+|  2.13 - 1.98 | 99.5%     | 97.8%     | 96.0%     | 93.4%     | 86.6%     | 80.7%     |
+|  1.98 - 1.86 | 99.3%     | 96.2%     | 93.7%     | 89.4%     | 79.4%     | 70.5%     |
+|  1.86 - 1.77 | 98.7%     | 94.8%     | 91.6%     | 85.7%     | 72.6%     | 60.1%     |
+|  1.77 - 1.69 | 98.1%     | 92.8%     | 88.4%     | 80.8%     | 63.6%     | 50.5%     |
+|  1.69 - 1.63 | 97.9%     | 90.8%     | 84.7%     | 74.4%     | 55.6%     | 40.9%     |
+|  1.63 - 1.57 | 97.6%     | 89.2%     | 81.4%     | 69.8%     | 47.4%     | 32.1%     |
+|  1.57 - 1.52 | 96.7%     | 85.5%     | 76.3%     | 63.5%     | 40.6%     | 25.6%     |
+|  1.52 - 1.48 | 96.3%     | 83.3%     | 73.2%     | 57.3%     | 31.8%     | 18.2%     |
+|  1.48 - 1.44 | 94.6%     | 78.2%     | 67.0%     | 46.9%     | 20.7%     | 8.8%      |
+|  1.44 - 1.40 | 93.8%     | 74.3%     | 60.4%     | 38.9%     | 13.9%     | 5.3%      |
+----------------------------------------------------------------------------------------
+
+  The completeness of data for which I/sig(I)>3.00, exceeds  85%
+  for resolution ranges lower than 1.69A.
+  The data are cut at this resolution for the potential twin tests
+  and intensity statistics.
+
+
+
+Maximum likelihood isotropic Wilson scaling 
+ML estimate of overall B value of None:
+10.35 A**(-2)
+Estimated -log of scale factor of None:
+-1.59
+
+
+Maximum likelihood anisotropic Wilson scaling 
+ML estimate of overall B_cart value of None:
+10.03,  0.00,  0.00
+       10.03,  0.00
+              11.01
+
+Equivalent representation as U_cif: 
+ 0.13,  0.06, -0.00
+        0.13,  0.00
+               0.14
+
+Eigen analyses of B-cart:
+                 Value   Vector
+Eigenvector 1 :  11.011  ( 0.00,  0.00,  1.00)
+Eigenvector 2 :  10.028  ( 0.71,  0.71, -0.00)
+Eigenvector 3 :  10.028  (-0.71,  0.71, -0.00)
+
+ML estimate of  -log of scale factor of None:
+-1.59
+Correcting for anisotropy in the data
+
+Some basic intensity statistics follow.
+
+
+
+Low resolution completeness analyses 
+
+ The following table shows the completeness
+ of the data to 5 Angstrom.
+unused:         - 26.6087 [  0/9  ] 0.000
+bin  1: 26.6087 - 10.5665 [111/114] 0.974
+bin  2: 10.5665 -  8.4760 [101/104] 0.971
+bin  3:  8.4760 -  7.4313 [106/106] 1.000
+bin  4:  7.4313 -  6.7641 [104/104] 1.000
+bin  5:  6.7641 -  6.2861 [102/102] 1.000
+bin  6:  6.2861 -  5.9198 [ 91/91 ] 1.000
+bin  7:  5.9198 -  5.6262 [107/107] 1.000
+bin  8:  5.6262 -  5.3834 [ 98/98 ] 1.000
+bin  9:  5.3834 -  5.1777 [ 95/95 ] 1.000
+bin 10:  5.1777 -  5.0003 [102/102] 1.000
+unused:  5.0003 -         [  0/0  ]
+
+
+
+Mean intensity analyses 
+ Analyses of the mean intensity. 
+ Inspired by: Morris et al. (2004). J. Synch. Rad.11, 56-59.
+ The following resolution shells are worrisome: 
+------------------------------------------------
+| d_spacing | z_score | compl. | <Iobs>/<Iexp> |
+------------------------------------------------
+|    2.000  |   6.88  |   1.00 |     0.724     |
+|    1.910  |   4.92  |   1.00 |     0.783     |
+------------------------------------------------
+
+ Possible reasons for the presence of the reported
+ unexpected low or elevated mean intensity in
+ a given resolution bin are :
+ - missing overloaded or weak reflections
+ - suboptimal data processing
+ - satellite (ice) crystals
+ - NCS
+ - translational pseudo symmetry (detected elsewhere)
+ - outliers (detected elsewhere)
+ - ice rings (detected elsewhere)
+ - other problems
+ Note that the presence of abnormalities
+ in a certain region of reciprocal space might
+ confuse the data validation algorithm throughout
+ a large region of reciprocal space, even though
+ the data are acceptable in those areas.
+
+
+
+Possible outliers 
+  Inspired by: Read, Acta Cryst. (1999). D55, 1759-1764
+
+ Acentric reflections:
+
+            None 
+
+ Centric reflections:
+
+            None 
+
+
+Ice ring related problems
+
+ The following statistics were obtained from ice-ring 
+ insensitive resolution ranges 
+  mean bin z_score      : 1.17
+      ( rms deviation   : 0.99 )
+  mean bin completeness : 1.00
+     ( rms deviation   : 0.03 )
+
+ The following table shows the z-scores 
+ and completeness in ice-ring sensitive areas.
+ Large z-scores and high completeness in these 
+ resolution ranges might be a reason to re-assess
+ your data processsing if ice rings were present.
+
+------------------------------------------------
+| d_spacing | z_score | compl. | Rel. Ice int. |
+------------------------------------------------
+|    3.897  |   0.86  |   1.00 |     1.000     |
+|    3.669  |   0.53  |   1.00 |     0.750     |
+|    3.441  |   2.49  |   1.00 |     0.530     |
+|    2.671  |   0.55  |   1.00 |     0.170     |
+|    2.249  |   1.75  |   1.00 |     0.390     |
+|    2.072  |   2.81  |   1.00 |     0.300     |
+|    1.948  |   4.09  |   1.00 |     0.040     |
+|    1.918  |   4.92  |   1.00 |     0.180     |
+|    1.883  |   1.06  |   1.00 |     0.030     |
+|    1.721  |   0.22  |   1.00 |     0.020     |
+------------------------------------------------
+
+ Abnormalities in mean intensity or completeness at
+ resolution ranges with a relative ice ring intensity
+ lower than 0.10 will be ignored.
+
+ No ice ring related problems detected.
+ If ice rings were present, the data does not look
+ worse at ice ring related d_spacings as compared
+ to the rest of the data set.
+
+
+
+
+
+
+$TABLE: Intensity plots:
+$GRAPHS
+:Intensity plots :A:1,2,3,4:
+$$
+1/resol^2   <I>_smooth_approximation   <I>_via_binning   <I>_expected   $$ 
+$$
+0.010001   158080.634950   168945.843111   127580.930920
+0.014001   107641.327983   170583.637597   100518.150634
+0.018001   87850.954287   80318.302040   73809.464712
+0.022001   81654.936226   60088.040550   63227.194977
+0.026001   82966.153314   64777.107603   63188.192076
+0.030001   89220.876325   78078.725467   69530.828159
+0.034001   99039.516638   94463.143237   84455.813501
+0.038001   111354.032422   125444.598635   108219.913798
+0.042001   125064.785231   125790.888737   135141.714094
+0.046001   138955.204751   138669.692974   157255.321585
+0.050001   151762.523903   155291.295371   169649.244485
+0.054001   162333.455766   170169.765290   172541.136165
+0.058001   169793.138404   170482.758927   169650.935241
+0.062001   173664.418375   185010.616072   165155.845760
+0.066001   173901.416643   151661.426245   161492.702285
+0.070001   170836.451270   176093.946473   158881.147712
+0.074001   165067.447092   175532.084520   156155.273172
+0.078001   157324.456700   146101.104056   151978.360281
+0.082001   148349.219525   140896.563480   145694.834358
+0.086001   138807.890875   117007.018766   137546.253253
+0.090001   129242.302440   121244.854610   128386.006363
+0.094001   120054.569991   113404.171988   119206.303591
+0.098001   111514.971124   113333.845858   110755.723928
+0.102001   103782.647558   105381.569867   103380.594067
+0.106001   96930.828236   94979.790565   97076.806088
+0.110001   90971.167081   88831.458716   91654.001626
+0.114001   85874.379108   82453.809456   86902.881416
+0.118001   81586.218278   75900.101125   82695.193796
+0.122001   78038.955329   81023.311121   78999.930178
+0.126001   75159.052235   75133.692346   75840.743740
+0.130001   72871.895528   70457.204881   73236.201112
+0.134001   71104.412641   65125.763706   71158.103621
+0.138001   69786.268941   67467.342840   69524.049989
+0.142001   68850.195144   65895.837982   68220.403582
+0.146001   68231.857861   69520.882505   67139.159173
+0.150001   67869.571365   72763.334850   66209.755346
+0.154001   67704.056282   68118.842802   65412.785210
+0.158001   67678.376505   72115.919642   64772.352664
+0.162001   67738.123902   69231.091517   64332.814159
+0.166001   67831.867699   73409.581973   64130.660136
+0.170001   67911.840091   63904.998543   64172.368642
+0.174001   67934.792117   69483.458481   64425.221754
+0.178001   67862.926023   67023.608676   64822.461031
+0.182001   67664.794663   61810.147094   65279.054886
+0.186001   67316.056742   72711.343483   65711.388898
+0.190001   66799.989284   65877.103096   66053.958408
+0.194001   66107.684004   62759.418317   66268.223371
+0.198001   65237.888666   60220.231089   66342.095530
+0.202001   64196.493026   68365.991153   66281.794635
+0.206001   62995.695981   65219.640138   66100.002917
+0.210001   61652.921018   66311.588858   65804.848486
+0.214001   60189.567304   63459.290195   65393.319935
+0.218001   58629.692022   69591.843988   64850.775557
+0.222001   56998.716197   56816.103426   64156.006675
+0.226001   55322.233253   57764.636931   63289.559128
+0.230001   53624.980118   55694.105983   62242.187303
+0.234001   51930.008255   52747.012762   61020.548251
+0.238001   50258.069906   50708.577727   59648.345386
+0.242001   48627.215602   51022.762113   58162.677844
+0.246001   47052.584090   50392.410094   56606.839378
+0.250001   45546.356060   39841.035020   55021.808846
+0.254001   44117.838055   45616.750610   53438.937058
+0.258001   42773.642169   47851.978510   51875.848464
+0.262001   41517.929399   42301.017573   50336.538749
+0.266001   40352.688908   39640.867396   48815.394621
+0.270001   39278.030820   40414.674699   47303.755942
+0.274001   38292.475859   35843.766879   45796.979818
+0.278001   37393.230426   38841.758461   44299.905747
+0.282001   36576.440368   36751.602923   42829.142870
+0.286001   35837.420397   39170.319870   41411.533328
+0.290001   35170.858914   35578.664703   40079.219738
+0.294001   34570.999866   33231.423144   38862.668603
+0.298001   34031.804342   35563.991065   37783.538216
+0.302001   33547.094990   30925.764427   36849.304554
+0.306001   33110.686185   34720.612560   36051.083937
+0.310001   32716.502339   32326.201486   35365.255727
+0.314001   32358.685899   31249.847664   34758.516170
+0.318001   32031.695674   30043.849613   34195.135294
+0.322001   31730.395156   29430.136009   33644.654438
+0.326001   31450.129695   31552.938889   33088.176389
+0.330001   31186.790736   30179.227902   32521.772026
+0.334001   30936.864969   30290.158053   31956.252947
+0.338001   30697.466183   31044.327251   31413.451662
+0.342001   30466.347891   32199.765016   30919.987582
+0.346001   30241.895299   31104.745179   30500.075890
+0.350001   30023.095996   30547.385146   30169.123841
+0.354001   29809.489615   31088.803425   29929.619438
+0.358001   29601.097665   29800.988499   29770.220109
+0.362001   29398.335654   27971.234513   29668.148013
+0.366001   29201.910348   26179.469344   29594.193983
+0.370001   29012.705651   30691.888669   29519.020515
+0.374001   28831.660949   26668.033808   29419.180990
+0.378001   28659.645981   28540.417185   29281.397404
+0.382001   28497.336397   27199.856668   29104.123252
+0.386001   28345.094163   27251.066292   28896.134475
+0.390001   28202.857014   28239.849840   28672.656217
+0.394001   28070.041271   28855.219360   28450.152490
+0.398001   27945.462603   26882.703512   28241.223529
+0.402001   27827.279666   28469.934667   28050.991971
+0.406001   27712.966062   27745.903453   27875.931498
+0.410001   27599.316476   25919.222610   27705.411188
+0.414001   27482.493095   28223.927355   27525.472963
+0.418001   27358.118197   25747.974366   27323.727971
+0.422001   27221.417861   26980.067725   27093.921850
+0.426001   27067.419846   28321.909115   26838.776167
+0.430001   26891.205587   27869.609067   26570.160451
+0.434001   26688.211944   27813.370910   26306.378468
+0.438001   26454.572980   28088.568155   26067.176068
+0.442001   26187.486131   28211.921765   25867.774372
+0.446001   25885.581335   25656.866862   25713.602511
+0.450001   25549.267230   25875.776490   25597.327376
+0.454001   25181.026266   23984.896536   25499.247187
+0.458001   24785.631781   25615.136956   25391.248313
+0.462001   24370.265058   23283.186752   25243.538313
+0.466001   23944.519156   22490.511962   25032.528611
+0.470001   23520.287626   21948.671437   24747.792893
+0.474001   23111.548070   22836.479525   24396.127146
+0.478001   22734.059877   22614.507652   24001.398513
+0.482001   22404.998738   21403.524163   23599.950009
+0.486001   22142.543688   20491.085090   23232.552793
+0.490001   21965.411109   24463.596253   22934.928004
+0.494001   21892.289127   23595.709789   22729.382566
+0.498001   21941.059088   24427.303201   22619.923572
+0.502001   22127.590172   23101.941716   22592.328202
+0.506001   22463.750899   25608.831043   22619.255929
+0.510001   22954.095205   23615.132702   22668.975200
+0.514001   23590.473435   23410.083090   22715.094204
+0.518001   24343.677469   23146.159105   22744.237295
+0.522001   25151.385721   24893.284875   22759.110889
+0.526001   25902.620749   24213.668205   22775.789819
+0.530489   26457.595704   28725.395554   22823.414405
+$$
+
+
+$TABLE: Z scores and completeness:
+$GRAPHS
+:Data sanity and completeness check :A:1,2,3:
+$$
+1/resol^2   Z_score   Completeness   $$ 
+$$
+0.010001   1.948826   0.975904
+0.014001   3.628318   0.988372
+0.018001   0.783413   1.000000
+0.022001   0.515856   1.000000
+0.026001   0.262560   1.000000
+0.030001   1.186430   1.000000
+0.034001   1.197507   1.000000
+0.038001   1.563566   1.000000
+0.042001   0.871913   1.000000
+0.046001   1.553272   1.000000
+0.050001   1.089045   1.000000
+0.054001   0.170399   1.000000
+0.058001   0.062954   1.000000
+0.062001   1.376959   1.000000
+0.066001   0.863014   1.000000
+0.070001   1.368165   1.000000
+0.074001   1.540403   1.000000
+0.078001   0.532537   1.000000
+0.082001   0.496511   1.000000
+0.086001   2.485991   1.000000
+0.090001   0.820598   1.000000
+0.094001   0.746175   1.000000
+0.098001   0.345666   1.000000
+0.102001   0.279280   1.000000
+0.106001   0.332914   1.000000
+0.110001   0.475549   1.000000
+0.114001   0.823720   1.000000
+0.118001   1.340717   1.000000
+0.122001   0.401187   1.000000
+0.126001   0.145783   1.000000
+0.130001   0.632466   1.000000
+0.134001   1.398447   1.000000
+0.138001   0.512440   1.000000
+0.142001   0.553018   1.000000
+0.146001   0.567879   1.000000
+0.150001   1.432746   1.000000
+0.154001   0.672409   1.000000
+0.158001   1.685934   1.000000
+0.162001   1.191562   1.000000
+0.166001   2.112966   1.000000
+0.170001   0.072032   1.000000
+0.174001   1.240700   1.000000
+0.178001   0.558651   1.000000
+0.182001   0.927000   1.000000
+0.186001   1.641907   1.000000
+0.190001   0.045931   1.000000
+0.194001   0.984721   1.000000
+0.198001   1.747571   1.000000
+0.202001   0.534693   1.000000
+0.206001   0.233327   1.000000
+0.210001   0.139959   1.000000
+0.214001   0.534855   1.000000
+0.218001   1.225263   1.000000
+0.222001   2.258107   1.000000
+0.226001   1.673088   1.000000
+0.230001   2.106584   1.000000
+0.234001   2.812411   1.000000
+0.238001   3.120760   1.000000
+0.242001   2.503535   1.000000
+0.246001   2.233675   1.000000
+0.250001   6.876673   1.000000
+0.254001   3.045556   1.000000
+0.258001   1.535512   1.000000
+0.262001   3.378418   1.000000
+0.266001   4.094926   1.000000
+0.270001   2.976482   1.000000
+0.274001   4.915887   1.000000
+0.278001   2.476076   1.000000
+0.282001   2.935257   1.000000
+0.286001   1.056060   1.000000
+0.290001   2.353871   1.000000
+0.294001   3.148850   1.000000
+0.298001   1.208570   1.000000
+0.302001   3.522391   1.000000
+0.306001   0.740517   1.000000
+0.310001   1.742620   1.000000
+0.314001   2.067363   1.000000
+0.318001   2.556286   1.000000
+0.322001   2.665472   1.000000
+0.326001   0.906352   1.000000
+0.330001   1.436931   1.000000
+0.334001   1.047279   1.000000
+0.338001   0.221859   1.000000
+0.342001   0.788560   1.000000
+0.346001   0.369155   1.000000
+0.350001   0.245193   1.000000
+0.354001   0.713276   1.000000
+0.358001   0.019536   1.000000
+0.362001   1.155635   1.000000
+0.366001   2.322156   1.000000
+0.370001   0.721985   1.000000
+0.374001   1.898746   1.000000
+0.378001   0.491245   1.000000
+0.382001   1.269713   1.000000
+0.386001   1.166719   1.000000
+0.390001   0.286910   1.000000
+0.394001   0.264201   1.000000
+0.398001   0.960896   1.000000
+0.402001   0.275354   1.000000
+0.406001   0.085549   1.000000
+0.410001   1.240098   1.000000
+0.414001   0.452453   1.000000
+0.418001   1.082373   1.000000
+0.422001   0.076336   1.000000
+0.426001   1.002278   1.000000
+0.430001   0.866263   1.000000
+0.434001   0.998951   1.000000
+0.438001   1.339191   1.000000
+0.442001   1.522755   1.000000
+0.446001   0.037974   1.000000
+0.450001   0.176273   1.000000
+0.454001   0.988205   1.000000
+0.458001   0.136834   1.000000
+0.462001   1.224447   1.000000
+0.466001   1.624862   1.000000
+0.470001   1.881817   1.000000
+0.474001   1.051563   1.000000
+0.478001   0.997415   1.000000
+0.482001   1.678420   1.000000
+0.486001   2.200149   1.000000
+0.490001   1.118532   1.000000
+0.494001   0.628912   1.000000
+0.498001   1.269735   1.000000
+0.502001   0.355319   1.000000
+0.506001   1.923506   1.000000
+0.510001   0.636369   1.000000
+0.514001   0.483776   1.000000
+0.518001   0.280585   1.000000
+0.522001   1.509618   1.000000
+0.526001   1.012308   1.000000
+0.530489   2.944864   0.740634
+$$
+
+
+$TABLE: <I/sigma_I>:
+$GRAPHS
+:Signal to noise :N:1,2:
+$$
+1/resol^2   <I/sigma_I>;_Signal_to_noise   $$ 
+$$
+0.003412   115.375537
+0.007412   125.063083
+0.011412   124.889964
+0.015412   128.599527
+0.019412   116.567142
+0.023412   112.337694
+0.027412   112.629300
+0.031412   120.540368
+0.035412   120.332052
+0.039412   125.286434
+0.043412   120.735344
+0.047412   123.358703
+0.051412   126.145812
+0.055412   125.587509
+0.059412   132.669058
+0.063412   119.087741
+0.067412   127.348384
+0.071412   124.111716
+0.075412   121.875055
+0.079412   106.320568
+0.083412   100.620341
+0.087412   100.453917
+0.091412   99.181820
+0.095412   105.004493
+0.099412   97.726070
+0.103412   93.962666
+0.107412   88.778693
+0.111412   90.093562
+0.115412   89.565666
+0.119412   81.779815
+0.123412   82.972950
+0.127412   82.486166
+0.131412   77.273886
+0.135412   79.031611
+0.139412   72.657586
+0.143412   71.607272
+0.147412   79.896154
+0.151412   75.654662
+0.155412   72.865100
+0.159412   72.818527
+0.163412   73.587924
+0.167412   73.856943
+0.171412   67.283481
+0.175412   69.836434
+0.179412   68.360478
+0.183412   68.666346
+0.187412   68.472188
+0.191412   64.128954
+0.195412   62.469685
+0.199412   62.112064
+0.203412   65.970753
+0.207412   61.858125
+0.211412   59.895352
+0.215412   60.644899
+0.219412   57.920680
+0.223412   53.139078
+0.227412   50.918989
+0.231412   51.277617
+0.235412   47.087298
+0.239412   47.261125
+0.243412   46.858656
+0.247412   42.859227
+0.251412   39.317131
+0.255412   40.626361
+0.259412   39.404744
+0.263412   35.815947
+0.267412   35.384196
+0.271412   33.054083
+0.275412   31.707161
+0.279412   31.158477
+0.283412   31.888648
+0.287412   31.076952
+0.291412   27.363419
+0.295412   27.869034
+0.299412   25.541204
+0.303412   24.024444
+0.307412   25.056338
+0.311412   24.343695
+0.315412   23.270120
+0.319412   20.442729
+0.323412   21.752263
+0.327412   20.578438
+0.331412   20.328066
+0.335412   19.025952
+0.339412   19.544983
+0.343412   20.209172
+0.347412   18.500309
+0.351412   18.426190
+0.355412   16.867534
+0.359412   15.761287
+0.363412   15.751657
+0.367412   14.848493
+0.371412   15.935352
+0.375412   14.134426
+0.379412   14.426746
+0.383412   13.395937
+0.387412   12.861328
+0.391412   13.297365
+0.395412   12.156222
+0.399412   12.161842
+0.403412   12.072057
+0.407412   11.846640
+0.411412   11.063009
+0.415412   11.084952
+0.419412   10.584128
+0.423412   10.546396
+0.427412   10.581144
+0.431412   10.244029
+0.435412   10.375251
+0.439412   9.450073
+0.443412   9.135963
+0.447412   8.835904
+0.451412   7.923406
+0.455412   7.804690
+0.459412   7.491899
+0.463412   6.734767
+0.467412   6.855293
+0.471412   6.488829
+0.475412   6.150787
+0.479412   6.046578
+0.483412   5.722263
+0.487412   5.280189
+0.491412   5.815412
+0.495412   5.384610
+0.499412   5.069740
+0.503412   5.101210
+0.507412   4.897539
+0.511412   4.467287
+0.515412   4.283136
+0.519412   4.080468
+0.523412   3.622344
+0.527412   2.528964
+0.531412   1.989921
+$$
+Basic analyses completed
+
+##----------------------------------------------------##
+##                   Twinning Analyses                ##
+##----------------------------------------------------##
+
+
+
+Using data between 10.00 to 1.69 Angstrom.
+
+Determining possible twin laws.
+
+The following twin laws have been found:
+
+--------------------------------------------------------------------------------
+| Type | Axis   | R metric (%) | delta (le Page) | delta (Lebedev) | Twin law  |
+--------------------------------------------------------------------------------
+|   M  | 2-fold | 0.000        | 0.000           | 0.000           | h,-h-k,-l |
+--------------------------------------------------------------------------------
+M:  Merohedral twin law
+PM: Pseudomerohedral twin law
+
+  1 merohedral twin operators found
+  0 pseudo-merohedral twin operators found
+In total,   1 twin operator were found
+
+
+ The presence of twin laws indicates the following: 
+        The symmetry of the lattice (unit cell) is higher (has more elements) 
+        than the point group of the assigned space group.
+
+ There are four likely scenarios associated with the presence of twin laws: 
+    i.  The assigned space group is incorrect (too low).
+   ii.  The assigned space group is correct and the data *is not* twinned.
+  iii.  The assigned space group is correct and the data *is* twinned.
+   iv.  The assigned space group is not correct (too low) and at the same time, the data *is* twinned.
+
+ Xtriage tries to distinguish between these cases by inspecting the intensity statistics.
+ It never hurts to carefully inspect statistics yourself and make sure that the automated 
+ interpretation is correct.
+
+
+
+Details of automated twin law derivation
+----------------------------------------
+Below, the results of the coset decomposition are given. 
+Each coset represents a single twin law, and all symmetry equivalent twin laws are given.
+For each coset, the operator in (x,y,z) and (h,k,l) notation are given. 
+The direction of the axis (in fractional coordinates), the type and possible offsets are given as well.
+Furthermore, the result of combining a certain coset with the input space group is listed.  
+This table can be usefull when comparing twin laws generated by xtriage with those listed in lookup tables
+In the table subgroup H denotes the *presumed intensity symmetry*. Group G is the symmetry of the lattice.
+
+Left cosets of :
+  subgroup  H: P 6
+  and group G: P 6 2 2
+
+  Coset number :     0   (all operators from H)
+
+               x,y,z                 h,k,l   Rotation:    1 ; direction:  (0, 0, 0) ; screw/glide:    (0,0,0)
+             -x,-y,z               -h,-k,l   Rotation:    2 ; direction:  (0, 0, 1) ; screw/glide:    (0,0,0)
+            -y,x-y,z              k,-h-k,l   Rotation:    3 ; direction:  (0, 0, 1) ; screw/glide:    (0,0,0)
+           -x+y,-x,z              -h-k,h,l   Rotation:    3 ; direction:  (0, 0, 1) ; screw/glide:    (0,0,0)
+             x-y,x,z              h+k,-h,l   Rotation:    6 ; direction:  (0, 0, 1) ; screw/glide:    (0,0,0)
+            y,-x+y,z              -k,h+k,l   Rotation:    6 ; direction:  (0, 0, 1) ; screw/glide:    (0,0,0)
+
+  Coset number :     1   (H+coset[1] = P 6 2 2)
+
+           x-y,-y,-z             h,-h-k,-l   Rotation:    2 ; direction:  (1, 0, 0) ; screw/glide:    (0,0,0)
+            -y,-x,-z              -k,-h,-l   Rotation:    2 ; direction: (-1, 1, 0) ; screw/glide:    (0,0,0)
+            x,x-y,-z             h+k,-k,-l   Rotation:    2 ; direction:  (2, 1, 0) ; screw/glide:    (0,0,0)
+          -x,-x+y,-z             -h-k,k,-l   Rotation:    2 ; direction:  (0, 1, 0) ; screw/glide:    (0,0,0)
+              y,x,-z                k,h,-l   Rotation:    2 ; direction:  (1, 1, 0) ; screw/glide:    (0,0,0)
+           -x+y,y,-z             -h,h+k,-l   Rotation:    2 ; direction:  (1, 2, 0) ; screw/glide:    (0,0,0)
+
+Note that if group H is centered (C,P,I,F), elements corresponding to centering operators are omitted.
+(This is because internally the calculations are done with the symmetry of the reduced cell)
+
+
+
+
+
+
+Splitting data in centrics and acentrics
+  Number of centrics  : 1309
+  Number of acentrics : 23706
+
+ Patterson analyses
+------------------
+
+ Largest Patterson peak with length larger than 15 Angstrom 
+
+ Frac. coord.        :    0.211   -0.420    0.000
+ Distance to origin  :   51.327
+ Height (origin=100) :    5.643
+ p_value(height)     :    7.922e-01
+
+
+   The reported p_value has the following meaning:
+     The probability that a peak of the specified height
+     or larger is found in a Patterson function of a
+     macro molecule that does not have any translational
+     pseudo symmetry is equal to  7.922e-01.
+     p_values smaller than 0.05 might indicate
+     weak translational pseudo symmetry, or the self vector of
+     a large anomalous scatterer such as Hg, whereas values
+     smaller than 1e-3 are a very strong indication for
+     the presence of translational pseudo symmetry.
+
+
+
+
+Systematic absences
+-------------------
+
+The following table gives information about systematic absences.
+
+For each operator, the reflections are split in three classes:
+
+  Absent    : Reflections that are absent for this operator.
+  Non Absent: Reflection of the same type (i.e. (0,0,l)) as above, but they should be present.
+  Complement: All other reflections.
+
+For each class, the <I/sigI> is reported, as well as the number of
+'violations'. A 'violation' is designated as a reflection for which a
+I/sigI criterion is not met. The criteria are
+
+  Absent violation     : I/sigI > 3.0
+  Non Absent violation : I/sigI < 3.0
+  Complement violation : I/sigI < 3.0
+
+Operators with low associated violations for *both* absent and non absent
+reflections, are likely to be true screw axis or glide planes. Both the
+number of violations and their percentages are given.  The number of
+violations within the 'complement' class, can be used as a comparison for
+the number of violations in the non-absent class.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+| Operator | absent under operator  |          | not absent under operator  |              | all other reflections   |          |          |
+|          |  <I/sigI> (violations) | n absent |  <I/sigI> (violations)     | n not absent |  <I/sigI> (violations)  | n compl  |  Score   |
+--------------------------------------------------------------------------------------------------------------------------------------------
+| 6_0 (c)  |     0.00  (0,  0.0%)   |        0 |    44.51  (0,  0.0%)       |       22     |    59.13  (1010,  4.0%) |    24993 | 5.19e+00 |
+| 6_1 (c)  |    45.75  (18, 100.0%) |       18 |    38.95  (0,  0.0%)       |        4     |    59.13  (1010,  4.0%) |    24993 | 2.24e+01 |
+| 6_2 (c)  |    41.66  (14, 100.0%) |       14 |    49.51  (0,  0.0%)       |        8     |    59.13  (1010,  4.0%) |    24993 | 1.92e+01 |
+| 6_3 (c)  |    47.25  (11, 100.0%) |       11 |    41.77  (0,  0.0%)       |       11     |    59.13  (1010,  4.0%) |    24993 | 1.55e+01 |
+| 6_4 (c)  |    41.66  (14, 100.0%) |       14 |    49.51  (0,  0.0%)       |        8     |    59.13  (1010,  4.0%) |    24993 | 1.92e+01 |
+| 6_5 (c)  |    45.75  (18, 100.0%) |       18 |    38.95  (0,  0.0%)       |        4     |    59.13  (1010,  4.0%) |    24993 | 2.24e+01 |
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Analyses of the absences table indicates a number of likely space group
+candidates, which are listed below. For each space group, the number of
+absent violations are listed under the '+++' column. The number of present
+violations (weak reflections) are listed under '---'. The last column is a
+likelihood based score for the particular space group.  Note that
+enantiomorphic spacegroups will have equal scores. Also, if absences were
+removed while processing the data, they will be regarded as missing
+information, rather then as enforcing that absence in the space group choices.
+
+
+------------------------------------------------------------------------------------
+| space group | n absent | <Z>_absent | <Z/sigZ>_absent | +++  | --- | score       |
+------------------------------------------------------------------------------------
+| P 6         | 0        |     0.00   |     0.00        |  0   |  0  |  0.000e+00  |
+| P 63        | 11       |     5.82   |    47.25        |  11  |  0  |  1.030e+01  |
+| P 62        | 14       |     4.62   |    41.66        |  14  |  0  |  1.403e+01  |
+| P 64        | 14       |     4.62   |    41.66        |  14  |  0  |  1.403e+01  |
+| P 61        | 18       |     5.84   |    45.75        |  18  |  0  |  1.721e+01  |
+| P 65        | 18       |     5.84   |    45.75        |  18  |  0  |  1.721e+01  |
+------------------------------------------------------------------------------------
+
+
+
+
+Wilson ratio and moments 
+
+Acentric reflections 
+   <I^2>/<I>^2    :1.965   (untwinned: 2.000; perfect twin 1.500)
+   <F>^2/<F^2>    :0.793   (untwinned: 0.785; perfect twin 0.885)
+   <|E^2 - 1|>    :0.727   (untwinned: 0.736; perfect twin 0.541)
+
+
+Centric reflections 
+   <I^2>/<I>^2    :3.004   (untwinned: 3.000; perfect twin 2.000)
+   <F>^2/<F^2>    :0.653   (untwinned: 0.637; perfect twin 0.785)
+   <|E^2 - 1|>    :0.920   (untwinned: 0.968; perfect twin 0.736)
+
+
+
+NZ test (0<=z<1) to detect twinning and possible translational NCS
+
+
+-----------------------------------------------
+|  Z  | Nac_obs | Nac_theo | Nc_obs | Nc_theo |
+-----------------------------------------------
+| 0.0 |   0.000 |    0.000 |  0.000 |   0.000 |
+| 0.1 |   0.086 |    0.095 |  0.244 |   0.248 |
+| 0.2 |   0.172 |    0.181 |  0.347 |   0.345 |
+| 0.3 |   0.250 |    0.259 |  0.421 |   0.419 |
+| 0.4 |   0.322 |    0.330 |  0.497 |   0.474 |
+| 0.5 |   0.389 |    0.394 |  0.530 |   0.520 |
+| 0.6 |   0.447 |    0.451 |  0.571 |   0.561 |
+| 0.7 |   0.498 |    0.503 |  0.598 |   0.597 |
+| 0.8 |   0.546 |    0.551 |  0.632 |   0.629 |
+| 0.9 |   0.589 |    0.593 |  0.664 |   0.657 |
+| 1.0 |   0.626 |    0.632 |  0.696 |   0.683 |
+-----------------------------------------------
+| Maximum deviation acentric      :  0.009    |
+| Maximum deviation centric       :  0.023    |
+|                                             |
+| <NZ(obs)-NZ(twinned)>_acentric  : -0.006    |
+| <NZ(obs)-NZ(twinned)>_centric   : +0.006    |
+-----------------------------------------------
+
+
+ L test for acentric data
+
+ using difference vectors (dh,dk,dl) of the form: 
+(2hp,2kp,2lp)
+  where hp, kp, and lp are random signed integers such that 
+  2 <= |dh| + |dk| + |dl| <= 8 
+
+  Mean |L|   :0.489  (untwinned: 0.500; perfect twin: 0.375)
+  Mean  L^2  :0.321  (untwinned: 0.333; perfect twin: 0.200)
+
+  The distribution of |L| values indicates a twin fraction of
+  0.00. Note that this estimate is not as reliable as obtained
+  via a Britton plot or H-test if twin laws are available. 
+
+
+
+
+$TABLE: NZ test:
+$GRAPHS
+:NZ test, acentric and centric data :A:1,2,3,4,5:
+$$
+z   Acentric_observed   Acentric_untwinned   Centric_observed   Centric_untwinned   $$ 
+$$
+0.000000   0.000000   0.000000   0.000000   0.000000
+0.100000   0.086476   0.095200   0.244461   0.248100
+0.200000   0.171982   0.181300   0.346830   0.345300
+0.300000   0.250485   0.259200   0.420932   0.418700
+0.400000   0.321859   0.329700   0.496562   0.473800
+0.500000   0.389100   0.393500   0.530176   0.520500
+0.600000   0.446596   0.451200   0.571429   0.561400
+0.700000   0.498060   0.503400   0.598167   0.597200
+0.800000   0.546317   0.550700   0.631780   0.628900
+0.900000   0.588501   0.593400   0.663866   0.657200
+1.000000   0.625707   0.632100   0.695951   0.683300
+$$
+
+
+$TABLE: L test,acentric data:
+$GRAPHS
+:L test, acentric data :A:1,2,3,4:
+$$
+|l|   Observed   Acentric_theory   Acentric_theory,_perfect_twin   $$ 
+$$
+0.000000   0.002637   0.000000   0.000000
+0.020000   0.022931   0.020000   0.029996
+0.040000   0.043083   0.040000   0.059968
+0.060000   0.063848   0.060000   0.089892
+0.080000   0.084283   0.080000   0.119744
+0.100000   0.104483   0.100000   0.149500
+0.120000   0.124965   0.120000   0.179136
+0.140000   0.145447   0.140000   0.208628
+0.160000   0.165741   0.160000   0.237952
+0.180000   0.186788   0.180000   0.267084
+0.200000   0.205952   0.200000   0.296000
+0.220000   0.225680   0.220000   0.324676
+0.240000   0.246068   0.240000   0.353088
+0.260000   0.267257   0.260000   0.381212
+0.280000   0.287080   0.280000   0.409024
+0.300000   0.309916   0.300000   0.436500
+0.320000   0.329221   0.320000   0.463616
+0.340000   0.348856   0.340000   0.490348
+0.360000   0.369385   0.360000   0.516672
+0.380000   0.389867   0.380000   0.542564
+0.400000   0.410208   0.400000   0.568000
+0.420000   0.432056   0.420000   0.592956
+0.440000   0.452255   0.440000   0.617408
+0.460000   0.472220   0.460000   0.641332
+0.480000   0.490865   0.480000   0.664704
+0.500000   0.512431   0.500000   0.687500
+0.520000   0.534608   0.520000   0.709696
+0.540000   0.554101   0.540000   0.731268
+0.560000   0.572276   0.560000   0.752192
+0.580000   0.593229   0.580000   0.772444
+0.600000   0.614512   0.600000   0.792000
+0.620000   0.635465   0.620000   0.810836
+0.640000   0.655194   0.640000   0.828928
+0.660000   0.675629   0.660000   0.846252
+0.680000   0.695028   0.680000   0.862784
+0.700000   0.715369   0.700000   0.878500
+0.720000   0.734485   0.720000   0.893376
+0.740000   0.755344   0.740000   0.907388
+0.760000   0.776203   0.760000   0.920512
+0.780000   0.795178   0.780000   0.932724
+0.800000   0.814578   0.800000   0.944000
+0.820000   0.835531   0.820000   0.954316
+0.840000   0.854129   0.840000   0.963648
+0.860000   0.873858   0.860000   0.971972
+0.880000   0.893728   0.880000   0.979264
+0.900000   0.914022   0.900000   0.985500
+0.920000   0.934316   0.920000   0.990656
+0.940000   0.953574   0.940000   0.994708
+0.960000   0.971419   0.960000   0.997632
+0.980000   0.989265   0.980000   0.999404
+$$
+
+---------------------------------------------
+ Analysing possible twin law :  h,-h-k,-l
+---------------------------------------------
+
+
+Results of the H-test on acentric data: 
+
+ (Only 50.0% of the strongest twin pairs were used)
+
+mean |H| : 0.462   (0.50: untwinned; 0.0: 50% twinned)
+mean H^2 : 0.303   (0.33: untwinned; 0.0: 50% twinned)
+Estimation of twin fraction via mean |H|: 0.038
+Estimation of twin fraction via cum. dist. of H: 0.038
+
+
+
+Britton analyses
+
+  Extrapolation performed on  0.00 < alpha < 0.495 
+  Estimated twin fraction: 0.009
+  Correlation: 0.9999
+
+R vs R statistic:
+  R_abs_twin = <|I1-I2|>/<|I1+I2|>
+  Lebedev, Vagin, Murshudov. Acta Cryst. (2006). D62, 83-95
+
+   R_abs_twin observed data   : 0.500
+
+  R_sq_twin = <(I1-I2)^2>/<(I1+I2)^2>
+   R_sq_twin observed data    : 0.336
+  No calculated data available.
+  R_twin for calculated data not determined.
+
+
+Maximum Likelihood twin fraction determination
+    Zwart, Read, Grosse-Kunstleve & Adams, to be published.
+
+
+   The estimated twin fraction is equal to 0.022
+
+
+
+$TABLE: Britton plot for twin law h,-h-k,-l:
+$GRAPHS
+:percentage negatives :A:1,2,3:
+$$
+alpha   percentage_negatives   fit   $$ 
+$$
+0.000000   0.000000   0.000000
+0.009901   0.004429   0.000754
+0.019802   0.012528   0.010184
+0.029703   0.021556   0.019615
+0.039604   0.030119   0.029046
+0.049505   0.038640   0.038477
+0.059406   0.048089   0.047908
+0.069307   0.057285   0.057339
+0.079208   0.066439   0.066770
+0.089109   0.075002   0.076201
+0.099010   0.084367   0.085632
+0.108911   0.094196   0.095063
+0.118812   0.102970   0.104494
+0.128713   0.112250   0.113924
+0.138614   0.120855   0.123355
+0.148515   0.131486   0.132786
+0.158416   0.140977   0.142217
+0.168317   0.149962   0.151648
+0.178218   0.159538   0.161079
+0.188119   0.168143   0.170510
+0.198020   0.178478   0.179941
+0.207921   0.188011   0.189372
+0.217822   0.196786   0.198803
+0.227723   0.206488   0.208234
+0.237624   0.216443   0.217665
+0.247525   0.225723   0.227095
+0.257426   0.235510   0.236526
+0.267327   0.244284   0.245957
+0.277228   0.254408   0.255388
+0.287129   0.264490   0.264819
+0.297030   0.274319   0.274250
+0.306931   0.283979   0.283681
+0.316832   0.292964   0.293112
+0.326733   0.302244   0.302543
+0.336634   0.311693   0.311974
+0.346535   0.321522   0.321405
+0.356436   0.330001   0.330835
+0.366337   0.340251   0.340266
+0.376238   0.349996   0.349697
+0.386139   0.359867   0.359128
+0.396040   0.368978   0.368559
+0.405941   0.379735   0.377990
+0.415842   0.390070   0.387421
+0.425743   0.399139   0.396852
+0.435644   0.408631   0.406283
+0.445545   0.417278   0.415714
+0.455446   0.426770   0.425145
+0.465347   0.435248   0.434576
+0.475248   0.443559   0.444006
+0.485149   0.453303   0.453437
+$$
+
+
+$TABLE: H test for possible twin law h,-h-k,-l:
+$GRAPHS
+:H test for Acentric data :A:1,2,3:
+$$
+H   Observed_S(H)   Fitted_S(H)   $$ 
+$$
+0.000000   0.062600   0.000000
+0.020000   0.080486   0.021643
+0.040000   0.100397   0.043286
+0.060000   0.118451   0.064930
+0.080000   0.132287   0.086573
+0.100000   0.153041   0.108216
+0.120000   0.170927   0.129859
+0.140000   0.188644   0.151503
+0.160000   0.209398   0.173146
+0.180000   0.229647   0.194789
+0.200000   0.249051   0.216432
+0.220000   0.267780   0.238076
+0.240000   0.288366   0.259719
+0.260000   0.307939   0.281362
+0.280000   0.331055   0.303005
+0.300000   0.347929   0.324649
+0.320000   0.370877   0.346292
+0.340000   0.388256   0.367935
+0.360000   0.406479   0.389578
+0.380000   0.424196   0.411222
+0.400000   0.443770   0.432865
+0.420000   0.463511   0.454508
+0.440000   0.483591   0.476151
+0.460000   0.507382   0.497795
+0.480000   0.528136   0.519438
+0.500000   0.545010   0.541081
+0.520000   0.561883   0.562724
+0.540000   0.583481   0.584368
+0.560000   0.602717   0.606011
+0.580000   0.620940   0.627654
+0.600000   0.641188   0.649297
+0.620000   0.659580   0.670941
+0.640000   0.677128   0.692584
+0.660000   0.695351   0.714227
+0.680000   0.712056   0.735870
+0.700000   0.730532   0.757514
+0.720000   0.750612   0.779157
+0.740000   0.769341   0.800800
+0.760000   0.785708   0.822443
+0.780000   0.803763   0.844086
+0.800000   0.823505   0.865730
+0.820000   0.841053   0.887373
+0.840000   0.858432   0.909016
+0.860000   0.875475   0.930659
+0.880000   0.896735   0.952303
+0.900000   0.915464   0.973946
+0.920000   0.933519   0.995589
+0.940000   0.949380   1.000000
+0.960000   0.969290   1.000000
+0.980000   0.987514   1.000000
+$$
+
+
+$TABLE: Likelihood based twin fraction estimation for possible twin law h,-h-k,-l:
+$GRAPHS
+:Likelihood based twin fraction estimate :A:1,2:
+$$
+alpha   NLL_(acentric_data)   $$ 
+$$
+0.021739   62348.585672
+0.043478   103209.832512
+0.065217   150370.590956
+0.086957   207721.872940
+0.108696   262538.026372
+0.130435   322071.803304
+0.152174   385894.369393
+0.173913   453088.532048
+0.195652   522467.146712
+0.217391   594921.900276
+0.239130   668074.797574
+0.260870   738142.441181
+0.282609   810655.128543
+0.304348   886470.409392
+0.326087   964744.951836
+0.347826   1039217.513024
+0.369565   1112543.461377
+0.391304   1191415.412394
+0.413043   1269057.889310
+0.434783   1349399.256125
+0.456522   1425800.675165
+0.478261   1500168.694973
+$$
+
+
+Exploring higher metric symmetry
+
+The point group of data as dictated by the space group is P 6
+The point group in the niggli setting is P 6 (c,a,b)
+The point group of the lattice is P 6 2 2 (c,a,b)
+A summary of R values for various possible point groups follow.
+
+--------------------------------------------------------------------------------------------------
+| Point group     | mean R_used | max R_used | mean R_unused | min R_unused | BIC       | choice |
+--------------------------------------------------------------------------------------------------
+| P 6 2 2 (c,a,b) | 0.500       | 0.500      | None          | None         | 1.147e+07 |        |
+| P 6 (c,a,b)     | None        | None       | 0.500         | 0.500        | 1.267e+05 | <---   |
+--------------------------------------------------------------------------------------------------
+
+R_used: mean and maximum R value for symmetry operators *used* in this point group
+R_unused: mean and minimum R value for symmetry operators *not used* in this point group
+An automated point group suggestion is made on the basis of the BIC (Bayesian information criterion).
+
+
+The likely point group of the data is: P 6 (c,a,b)
+
+Possible space groups in this point group are:
+   Unit cell: (92.174, 92.174, 46.214, 90, 90, 120)
+   Space group: P 6 (No. 168)
+
+   Unit cell: (92.174, 92.174, 46.214, 90, 90, 120)
+   Space group: P 61 (No. 169)
+
+   Unit cell: (92.174, 92.174, 46.214, 90, 90, 120)
+   Space group: P 65 (No. 170)
+
+   Unit cell: (92.174, 92.174, 46.214, 90, 90, 120)
+   Space group: P 62 (No. 171)
+
+   Unit cell: (92.174, 92.174, 46.214, 90, 90, 120)
+   Space group: P 64 (No. 172)
+
+   Unit cell: (92.174, 92.174, 46.214, 90, 90, 120)
+   Space group: P 63 (No. 173)
+
+
+Note that this analysis does not take into account the effects of twinning.
+If the data are (almost) perfectly twinned, the symmetry will appear to be
+higher than it actually is.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+Merging in *highest possible* point group P 6 2 2 (c,a,b).
+ ***** THIS MIGHT NOT BE THE BEST POINT GROUP SYMMETRY *****  
+-------------------------------------------------------------------------------------------------------------------------
+
+R-linear = sum(abs(data - mean(data))) / sum(abs(data))
+R-square = sum((data - mean(data))**2) / sum(data**2)
+In these sums single measurements are excluded.
+                           Redundancy       Mean      Mean
+                         Min  Max   Mean  R-linear  R-square
+unused:        - 9.9989
+bin  1: 9.9989 - 3.5958    1    2  1.782    0.4997    0.3572
+bin  2: 3.5958 - 2.8764    1    2  1.851    0.5009    0.3390
+bin  3: 2.8764 - 2.5195    1    2  1.871    0.5014    0.3081
+bin  4: 2.5195 - 2.2922    1    2  1.883    0.5060    0.2953
+bin  5: 2.2922 - 2.1296    1    2  1.893    0.5085    0.2789
+bin  6: 2.1296 - 2.0051    1    2  1.906    0.5015    0.2591
+bin  7: 2.0051 - 1.9054    1    2  1.898    0.4911    0.2429
+bin  8: 1.9054 - 1.8230    1    2  1.913    0.4844    0.2319
+bin  9: 1.8230 - 1.7532    1    2  1.911    0.4803    0.2238
+bin 10: 1.7532 - 1.6930    1    2  1.916    0.4897    0.2285
+unused: 1.6930 -
+
+Suggesting various space group choices on the basis of systematic absence analyses
+
+
+Analyses of the absences table indicates a number of likely space group
+candidates, which are listed below. For each space group, the number of
+absent violations are listed under the '+++' column. The number of present
+violations (weak reflections) are listed under '---'. The last column is a
+likelihood based score for the particular space group.  Note that
+enantiomorphic spacegroups will have equal scores. Also, if absences were
+removed while processing the data, they will be regarded as missing
+information, rather then as enforcing that absence in the space group choices.
+
+
+------------------------------------------------------------------------------------
+| space group | n absent | <Z>_absent | <Z/sigZ>_absent | +++  | --- | score       |
+------------------------------------------------------------------------------------
+| P 6 2 2     | 0        |     0.00   |     0.00        |  0   |  0  |  0.000e+00  |
+| P 63 2 2    | 11       |     7.51   |    47.25        |  11  |  0  |  1.055e+01  |
+| P 62 2 2    | 14       |     6.26   |    41.66        |  14  |  0  |  1.406e+01  |
+| P 64 2 2    | 14       |     6.26   |    41.66        |  14  |  0  |  1.406e+01  |
+| P 61 2 2    | 18       |     7.62   |    45.75        |  18  |  0  |  1.757e+01  |
+| P 65 2 2    | 18       |     7.62   |    45.75        |  18  |  0  |  1.757e+01  |
+------------------------------------------------------------------------------------
+
+
+
+
+
+
+-------------------------------------------------------------------------------
+Twinning and intensity statistics summary (acentric data):
+
+Statistics independent of twin laws
+  <I^2>/<I>^2 : 1.965
+  <F>^2/<F^2> : 0.793
+  <|E^2-1|>   : 0.727
+  <|L|>, <L^2>: 0.489, 0.321
+  Multivariate Z score L-test: 0.510
+
+ The multivariate Z score is a quality measure of the given
+ spread in intensities. Good to reasonable data are expected
+ to have a Z score lower than 3.5.
+ Large values can indicate twinning, but small values do not
+ necessarily exclude it.
+
+
+
+Statistics depending on twin laws
+------------------------------------------------------------------
+| Operator  | type | R obs. | Britton alpha | H alpha | ML alpha |
+------------------------------------------------------------------
+| h,-h-k,-l |   M  | 0.500  | 0.009         | 0.038   | 0.022    |
+------------------------------------------------------------------
+
+Patterson analyses
+  - Largest peak height   : 5.643
+   (corresponding p value : 0.79225)
+
+
+The largest off-origin peak in the Patterson function is 5.64% of the 
+height of the origin peak. No significant pseudotranslation is detected.
+
+The results of the L-test indicate that the intensity statistics
+behave as expected. No twinning is suspected.
+Even though no twinning is suspected, it might be worthwhile carrying out 
+a refinement using a dedicated twin target anyway, as twinned structures with
+low twin fractions are difficult to distinguish from non-twinned structures.
+
+
+-------------------------------------------------------------------------------
+

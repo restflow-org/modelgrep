@@ -1,0 +1,29 @@
+
+Ignore slash \w \s \S \   ok_slash Ignore slash  
+Ignore dollars   $hello   ok_dollar Ignore dollars
+Ignore brackets   [12345]   ok_brackets Ignore brackets
+Ignore period   . HELLO.   ok_period Ignore period
+Ignore question  Hello?  Ignore question
+Ignore exp  Hello^  Ignore exp
+Ignore paren  (Hello)  Ignore paren
+Ignore plus  Hello+  Ignore plus
+Ignore star  Hello*  Ignore star
+Ignore colon Hello: Ignore colon
+Ignore dash  [A-Z]  Ignore dash
+Ignore excl Hello! Ignore excl
+Ignore stuff  @#&="| ignore stuff
+
+----------MyBoundedHello----------
+
+
+-----X------------Y---
+
+ignore regexp (?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])
+
+
+
+
+
+
+
+

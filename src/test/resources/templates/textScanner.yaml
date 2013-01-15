@@ -1,0 +1,80 @@
+namespace:
+
+imports:
+  - classpath:common/support.yml
+  - classpath:common/directors.yml
+
+beans:
+
+  - id: ImageHeaderParser 
+    className: ssrl.workflow.beans.TextScanner
+    properties: 
+      template:
+      - |
+        OVERLOAD_CUTOFF       {:INT}
+        HEADER_BYTES          {:INT}
+        DIM                   {:INT}
+        BYTE_ORDER            {:STRING}
+        TYPE                  {:STRING}
+        SIZE1                 {size_x}
+        SIZE2                 {size_y}
+        PIXEL_SIZE            0.102588
+        BIN                   {:STRING}
+        ADC                   fast
+        DETECTOR_SN           {serial_no}
+      - TIME                  {time}
+      - DISTANCE              {distance}
+      - PHI                   {phi}
+      - OSC_START             {osc_start}
+      - OSC_RANGE             {osc_range}
+      - WAVELENGTH            {wavelength}
+      - BEAM_CENTER_X         {beam_center_x}
+      - BEAM_CENTER_Y         {beam_center_y}
+      - ACC_TIME              {:INT}
+      - CREV                  1
+      - BIN_TYPE              HW
+      - PIXEL SIZE            {pixel_size}
+      - OSCILLATION RANGE     {osc_range}
+      - EXPOSURE TIME         {exposure_time}
+      - TWO THETA             {theta}
+      - BEAM CENTRE           157.5 157.5
+
+
+  - id: ImageHeaderReader
+    className: ssrl.workflow.actors.GroovyActor
+    singleton: false
+    properties:
+      private:
+        parser: !lref ImageHeaderParser
+      inputs: 
+        textIn: |
+          DISTANCE               350.0
+      outputs:
+        parsed:
+      step: |
+        parser.compile();
+        parsed = parser.search (textIn);
+        println parsed
+    
+  - id: ReadImageHeaders
+    className: ssrl.workflow.actors.ActorWorkflowNode
+    properties: 
+      actor: !ref ImageHeaderReader
+      outflows:
+        parsed: /parsed/
+        
+
+  #############################
+  # declaration of the workflow
+  #############################
+   
+  - id: TextScanner
+    className: ssrl.workflow.actors.Workflow
+    properties:
+#     director: !ref DataDrivenDirector
+      director: !ref DemandDrivenDirector
+#      director: !ref PublishSubscribeDirector
+      traceRecorder: !ref TraceRecorder
+      nodes:
+        - !lref ReadImageHeaders
+    

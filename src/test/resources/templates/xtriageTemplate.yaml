@@ -1,0 +1,41 @@
+!!ssrl.modelgrep.ModelGrep
+  absorbWhiteSpaceSymbol: "~"
+  template: 
+    - '{header:NZ_TEST_HEADER}{nztest[]:NZ_TEST}'
+    - '{l_header:L_TEST_HEADER}{ltest[]:L_TEST}'
+  tags:
+    NZ_TEST_HEADER: 'z ~ Acentric_observed ~ Acentric_untwinned ~ Centric_observed ~ Centric_untwinned ~ $$ ~ $$ ~'
+    NZ_TEST: "{z:FLOAT} ~ {acob:FLOAT} ~ {acuntw:FLOAT} ~ {cenob:FLOAT} ~ {cenuntw:FLOAT} ~"
+    L_TEST_HEADER: '|l| ~ Observed ~ Acentric_theory ~ Acentric_theory,_perfect_twin ~ $$ ~ $$ ~'
+    L_TEST: '{l:FLOAT} ~ {obs:FLOAT} ~ {acth:FLOAT} ~ {acthtw:FLOAT} ~'
+  
+  
+#  $TABLE: NZ test:
+#$GRAPHS
+#:NZ test, acentric and centric data :A:1,2,3,4,5:
+#$$
+#z   Acentric_observed   Acentric_untwinned   Centric_observed   Centric_untwinned   $$ 
+#$$
+#0.000000   0.000000   0.000000   0.000000   0.000000
+#0.100000   0.086476   0.095200   0.244461   0.248100
+#0.200000   0.171982   0.181300   0.346830   0.345300
+#0.300000   0.250485   0.259200   0.420932   0.418700
+#0.400000   0.321859   0.329700   0.496562   0.473800
+#0.500000   0.389100   0.393500   0.530176   0.520500
+#0.600000   0.446596   0.451200   0.571429   0.561400
+#0.700000   0.498060   0.503400   0.598167   0.597200
+#0.800000   0.546317   0.550700   0.631780   0.628900
+#0.900000   0.588501   0.593400   0.663866   0.657200
+#1.000000   0.625707   0.632100   0.695951   0.683300
+#$$
+#
+#  
+
+#$$
+#|l|   Observed   Acentric_theory   Acentric_theory,_perfect_twin   $$ 
+#$$
+#0.000000   0.002637   0.000000   0.000000
+#0.020000   0.022931   0.020000   0.029996
+#0.040000   0.043083   0.040000   0.059968
+#0.060000   0.063848   0.060000   0.089892
+#0.080000   0.084283   0.080000   0.119744

@@ -1,0 +1,7 @@
+absorbWhiteSpaceSymbol: "~"
+template:
+-  "Author: {first} {last}"
+-  "{books[]:BOOK}"
+tags:
+  BOOK: "| ~ {id:INT} ~ | ~ {title:TEXT_BLOCK} ~ | ~ {publisher:TEXT_BLOCK} ~ |"
+

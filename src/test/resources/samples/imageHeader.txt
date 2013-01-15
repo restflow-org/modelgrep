@@ -1,0 +1,27 @@
+OVERLOAD_CUTOFF       65535
+HEADER_BYTES          512
+DIM                   2
+BYTE_ORDER            little_endian
+TYPE                  unsigned_short
+SIZE1                 3240
+SIZE2                 3240
+PIXEL_SIZE            0.102588
+BIN                   2x2
+ADC                   fast
+DETECTOR_SN           901
+TIME                  1.000000
+DISTANCE              172.008397
+PHI                   180.430268
+OSC_START             180.430268
+OSC_RANGE             1.000000
+WAVELENGTH            0.979462
+BEAM_CENTER_X         157.500000
+BEAM_CENTER_Y         157.500000
+ACC_TIME              1163
+CREV                  1
+BIN_TYPE              HW
+PIXEL SIZE            0.102588
+OSCILLATION RANGE     1
+EXPOSURE TIME         1
+TWO THETA             0
+BEAM CENTRE           157.5 157.5

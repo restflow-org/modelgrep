@@ -1,0 +1,1000 @@
+02/07/11 14:38:30 1115674944     INFO    axis:A current: -96355,  reference: -96421 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:30 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:30 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:30 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:30 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:30 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10 ->  -99979
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:30 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi -9.999705 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:30 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:30 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10 ->  -99979
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:30 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10 ->  -99982
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:30 1115674944     INFO    axis:A current: -99979,  reference: -99982 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:30 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:30 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:30 1115674944     INFO    STOP LEVEL2: controller ready to receive new move command {src/dmc2180API.cc 1334  }
+02/07/11 14:38:30 1115674944     INFO    STOP LEVEL3b: motor stopped normally {src/dmc2180API.cc 1361  }
+02/07/11 14:38:30 1115674944     INFO    isMoving: STOP LEVEL4b: (reference - position) < 5  {src/dmc2180API.cc 1368  }
+02/07/11 14:38:30 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:30 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10 ->  -99979
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:30 1115674944     INFO    dhs -> {htos_motor_move_completed gonio_phi -9.999705 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:30 1783461904     INFO    in <- {stoh_correct_motor_position gonio_phi 360} {src/dhs_network.cc 106  }
+02/07/11 14:38:30 1115674944     INFO    DPA=3499371 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10-> DPA=3499371 {src/dmc2180API.cc 390  }
+02/07/11 14:38:30 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:30 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:32 1783461904     INFO    in <- {stoh_start_motor_move gonio_phi 370.000000} {src/dhs_network.cc 106  }
+02/07/11 14:38:32 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  3499371
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    MG _MOA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> MG _MOA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    PAA=3699332 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> PAA=3699332 {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    error_code: 0 {src/dmc2180API.cc 1256  }
+02/07/11 14:38:32 1115674944     INFO    dhs -> {htos_motor_move_started gonio_phi 370.000000} {src/dhs_network.cc 173  }
+02/07/11 14:38:32 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:32 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:32 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  3502913
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 350.354539 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:32 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  0
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  3502981
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  3503073
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    axis:A current: 3502981,  reference: 3503073 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:32 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:32 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:32 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  3592089
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 359.273749 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:32 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  3592453
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  3593195
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:32 1115674944     INFO    axis:A current: 3592453,  reference: 3593195 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:32 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:32 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:32 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:33 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:33 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  3692501
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 369.316762 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:33 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  3692599
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  3692690
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    axis:A current: 3692599,  reference: 3692690 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:33 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:33 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:33 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:33 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  3699336
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 370.000385 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:33 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  3699335
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    axis:A current: 3699335,  reference: 3699332 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:33 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:33 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    STOP LEVEL2: controller ready to receive new move command {src/dmc2180API.cc 1334  }
+02/07/11 14:38:33 1115674944     INFO    STOP LEVEL3b: motor stopped normally {src/dmc2180API.cc 1361  }
+02/07/11 14:38:33 1115674944     INFO    isMoving: STOP LEVEL4b: (reference - position) < 5  {src/dmc2180API.cc 1368  }
+02/07/11 14:38:33 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 ->  3699335
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    dhs -> {htos_motor_move_completed gonio_phi 370.000285 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:33 1783461904     INFO    in <- {stoh_correct_motor_position gonio_phi -360} {src/dhs_network.cc 106  }
+02/07/11 14:38:33 1115674944     INFO    DPA=99985 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10-> DPA=99985 {src/dmc2180API.cc 390  }
+02/07/11 14:38:33 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:33 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:34 1783461904     INFO    in <- {stoh_start_motor_move gonio_phi -10.000000} {src/dhs_network.cc 106  }
+02/07/11 14:38:34 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  99985
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    MG _MOA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> MG _MOA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    PAA=-99982 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> PAA=-99982 {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    error_code: 0 {src/dmc2180API.cc 1256  }
+02/07/11 14:38:34 1115674944     INFO    dhs -> {htos_motor_move_started gonio_phi -10.000000} {src/dhs_network.cc 173  }
+02/07/11 14:38:34 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:34 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:34 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  95720
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 9.573728 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:34 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  0
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  95644
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  95532
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    axis:A current: 95644,  reference: 95532 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:34 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:34 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:34 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  3593
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 0.359365 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:34 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  3225
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  2489
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:34 1115674944     INFO    axis:A current: 3225,  reference: 2489 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:34 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:34 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:34 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:35 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:35 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  -94094
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi -9.411099 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:35 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  -94184
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  -94269
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    axis:A current: -94184,  reference: -94269 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:35 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:35 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:35 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:35 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  -99984
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi -10.000205 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:35 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  -99983
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  -99982
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    axis:A current: -99983,  reference: -99982 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:35 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:35 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    STOP LEVEL2: controller ready to receive new move command {src/dmc2180API.cc 1334  }
+02/07/11 14:38:35 1115674944     INFO    STOP LEVEL3b: motor stopped normally {src/dmc2180API.cc 1361  }
+02/07/11 14:38:35 1115674944     INFO    isMoving: STOP LEVEL4b: (reference - position) < 5  {src/dmc2180API.cc 1368  }
+02/07/11 14:38:35 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 ->  -99983
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    dhs -> {htos_motor_move_completed gonio_phi -10.000105 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:35 1783461904     INFO    in <- {stoh_correct_motor_position gonio_phi 360} {src/dhs_network.cc 106  }
+02/07/11 14:38:35 1115674944     INFO    DPA=3499367 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10-> DPA=3499367 {src/dmc2180API.cc 390  }
+02/07/11 14:38:35 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:35 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:37 1783461904     INFO    in <- {stoh_start_motor_move gonio_phi 370.000000} {src/dhs_network.cc 106  }
+02/07/11 14:38:37 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3499367
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    MG _MOA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> MG _MOA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    PAA=3699332 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> PAA=3699332 {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    error_code: 0 {src/dmc2180API.cc 1256  }
+02/07/11 14:38:37 1115674944     INFO    dhs -> {htos_motor_move_started gonio_phi 370.000000} {src/dhs_network.cc 173  }
+02/07/11 14:38:37 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:37 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:37 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3499804
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 350.043583 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:37 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  0
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3499831
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3499918
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    axis:A current: 3499831,  reference: 3499918 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:37 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:37 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:37 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3570270
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 357.091455 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:37 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  0
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3570587
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3570911
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    axis:A current: 3570587,  reference: 3570911 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:37 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:37 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:37 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3684632
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 368.529720 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:37 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3684773
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3685049
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    axis:A current: 3684773,  reference: 3685049 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:37 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:37 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:37 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:37 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3699324
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 369.999185 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:37 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3699324
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    axis:A current: 3699324,  reference: 3699332 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:37 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:37 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:37 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:37 1115674944     INFO    STOP LEVEL2: controller ready to receive new move command {src/dmc2180API.cc 1334  }
+02/07/11 14:38:37 1115674944     INFO    STOP LEVEL3b: motor stopped normally {src/dmc2180API.cc 1361  }
+02/07/11 14:38:38 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:38 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:38 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:38 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 369.999985 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:38 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:38 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:38 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:38 1115674944     INFO    axis:A current: 3699332,  reference: 3699332 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:38 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:38 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:38 1115674944     INFO    STOP LEVEL2: controller ready to receive new move command {src/dmc2180API.cc 1334  }
+02/07/11 14:38:38 1115674944     INFO    STOP LEVEL3b: motor stopped normally {src/dmc2180API.cc 1361  }
+02/07/11 14:38:38 1115674944     INFO    isMoving: STOP LEVEL4b: (reference - position) < 5  {src/dmc2180API.cc 1368  }
+02/07/11 14:38:38 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:38 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:38 1115674944     INFO    dhs -> {htos_motor_move_completed gonio_phi 369.999985 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:38 1783461904     INFO    in <- {stoh_correct_motor_position gonio_phi -360} {src/dhs_network.cc 106  }
+02/07/11 14:38:38 1115674944     INFO    DPA=99982 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10-> DPA=99982 {src/dmc2180API.cc 390  }
+02/07/11 14:38:38 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:38 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:39 1783461904     INFO    in <- {stoh_start_motor_move gonio_phi -10.000000} {src/dhs_network.cc 106  }
+02/07/11 14:38:39 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  99983
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    MG _MOA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> MG _MOA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    PAA=-99982 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> PAA=-99982 {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    error_code: 0 {src/dmc2180API.cc 1256  }
+02/07/11 14:38:39 1115674944     INFO    dhs -> {htos_motor_move_started gonio_phi -10.000000} {src/dhs_network.cc 173  }
+02/07/11 14:38:39 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:39 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:39 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  94660
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 9.467709 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:39 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  0
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  94572
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  94447
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    axis:A current: 94572,  reference: 94447 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:39 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:39 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:39 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  -1607
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi -0.160729 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:39 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  -1981
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  -2286
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    axis:A current: -1981,  reference: -2286 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:39 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:39 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:39 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:39 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  -95216
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi -9.523319 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:39 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  -95297
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  -95450
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:39 1115674944     INFO    axis:A current: -95297,  reference: -95450 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:39 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:39 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:39 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:40 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:40 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:40 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10 ->  -99980
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:40 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi -9.999805 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:40 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:40 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10 ->  -99979
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:40 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10 ->  -99982
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:40 1115674944     INFO    axis:A current: -99979,  reference: -99982 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:40 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:40 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:40 1115674944     INFO    STOP LEVEL2: controller ready to receive new move command {src/dmc2180API.cc 1334  }
+02/07/11 14:38:40 1115674944     INFO    STOP LEVEL3b: motor stopped normally {src/dmc2180API.cc 1361  }
+02/07/11 14:38:40 1115674944     INFO    isMoving: STOP LEVEL4b: (reference - position) < 5  {src/dmc2180API.cc 1368  }
+02/07/11 14:38:40 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:40 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10 ->  -99979
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:40 1115674944     INFO    dhs -> {htos_motor_move_completed gonio_phi -9.999705 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:40 1783461904     INFO    in <- {stoh_correct_motor_position gonio_phi 360} {src/dhs_network.cc 106  }
+02/07/11 14:38:40 1115674944     INFO    DPA=3499371 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10-> DPA=3499371 {src/dmc2180API.cc 390  }
+02/07/11 14:38:40 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:40 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:42 1783461904     INFO    in <- {stoh_start_motor_move gonio_phi 370.000000} {src/dhs_network.cc 106  }
+02/07/11 14:38:42 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3499371
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    MG _MOA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> MG _MOA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    PAA=3699332 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> PAA=3699332 {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    error_code: 0 {src/dmc2180API.cc 1256  }
+02/07/11 14:38:42 1115674944     INFO    dhs -> {htos_motor_move_started gonio_phi 370.000000} {src/dhs_network.cc 173  }
+02/07/11 14:38:42 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:42 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:42 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3501155
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 350.178707 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:42 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  0
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3501206
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3501298
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    axis:A current: 3501206,  reference: 3501298 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:42 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:42 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:42 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3581848
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 358.249464 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:42 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  0
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3582189
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3582537
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    axis:A current: 3582189,  reference: 3582537 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:42 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:42 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:42 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3689227
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 368.989303 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:42 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3689344
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3689590
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    axis:A current: 3689344,  reference: 3689590 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:42 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:42 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:42 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:42 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3699334
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 370.000185 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:42 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3699334
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    axis:A current: 3699334,  reference: 3699332 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:42 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:42 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    STOP LEVEL2: controller ready to receive new move command {src/dmc2180API.cc 1334  }
+02/07/11 14:38:42 1115674944     INFO    STOP LEVEL3b: motor stopped normally {src/dmc2180API.cc 1361  }
+02/07/11 14:38:42 1115674944     INFO    isMoving: STOP LEVEL4b: (reference - position) < 5  {src/dmc2180API.cc 1368  }
+02/07/11 14:38:42 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 ->  3699335
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    dhs -> {htos_motor_move_completed gonio_phi 370.000285 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:42 1783461904     INFO    in <- {stoh_correct_motor_position gonio_phi -360} {src/dhs_network.cc 106  }
+02/07/11 14:38:42 1115674944     INFO    DPA=99985 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10-> DPA=99985 {src/dmc2180API.cc 390  }
+02/07/11 14:38:42 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:42 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:44 1783461904     INFO    in <- {stoh_start_motor_move gonio_phi -10.000000} {src/dhs_network.cc 106  }
+02/07/11 14:38:44 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  99985
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    MG _MOA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> MG _MOA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    PAA=-99982 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> PAA=-99982 {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    error_code: 0 {src/dmc2180API.cc 1256  }
+02/07/11 14:38:44 1115674944     INFO    dhs -> {htos_motor_move_started gonio_phi -10.000000} {src/dhs_network.cc 173  }
+02/07/11 14:38:44 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:44 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:44 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  96306
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 9.632339 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:44 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  0
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  96235
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  96066
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    axis:A current: 96235,  reference: 96066 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:44 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:44 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:44 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  6167
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 0.616811 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:44 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  5801
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  5062
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    axis:A current: 5801,  reference: 5062 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:44 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:44 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:44 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:44 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  -93441
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi -9.345787 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:44 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  -93536
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  -93626
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    axis:A current: -93536,  reference: -93626 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:44 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:44 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:44 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:44 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  -99985
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi -10.000305 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:44 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  -99985
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  -99982
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    axis:A current: -99985,  reference: -99982 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:44 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:44 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    STOP LEVEL2: controller ready to receive new move command {src/dmc2180API.cc 1334  }
+02/07/11 14:38:44 1115674944     INFO    STOP LEVEL3b: motor stopped normally {src/dmc2180API.cc 1361  }
+02/07/11 14:38:44 1115674944     INFO    isMoving: STOP LEVEL4b: (reference - position) < 5  {src/dmc2180API.cc 1368  }
+02/07/11 14:38:44 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 ->  -99984
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    dhs -> {htos_motor_move_completed gonio_phi -10.000205 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:44 1783461904     INFO    in <- {stoh_correct_motor_position gonio_phi 360} {src/dhs_network.cc 106  }
+02/07/11 14:38:44 1115674944     INFO    DPA=3499366 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10-> DPA=3499366 {src/dmc2180API.cc 390  }
+02/07/11 14:38:44 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:44 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:46 1783461904     INFO    in <- {stoh_start_motor_move gonio_phi 370.000000} {src/dhs_network.cc 106  }
+02/07/11 14:38:46 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 ->  3499367
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    MG _MOA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> MG _MOA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    PAA=3699332 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> PAA=3699332 {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    error_code: 0 {src/dmc2180API.cc 1256  }
+02/07/11 14:38:46 1115674944     INFO    dhs -> {htos_motor_move_started gonio_phi 370.000000} {src/dhs_network.cc 173  }
+02/07/11 14:38:46 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:46 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:46 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 ->  3499367
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 349.999875 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:46 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 ->  0
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 ->  3499366
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 ->  3499366
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    axis:A current: 3499366,  reference: 3499366 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:46 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:46 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:46 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 ->  3555255
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 355.589684 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:46 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 ->  0
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 ->  3555538
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:46 1115674944     INFO    bl122ga10 ->  3556111
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:46 1115674944     INFO    axis:A current: 3555538,  reference: 3556111 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:47 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:47 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:47 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  3676669
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 367.733276 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:47 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  3676848
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  3677044
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    axis:A current: 3676848,  reference: 3677044 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:47 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:47 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  1.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:47 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:47 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  3699344
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 370.001185 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:47 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  3699344
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    axis:A current: 3699344,  reference: 3699332 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:47 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:47 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    STOP LEVEL2: controller ready to receive new move command {src/dmc2180API.cc 1334  }
+02/07/11 14:38:47 1115674944     INFO    STOP LEVEL3b: motor stopped normally {src/dmc2180API.cc 1361  }
+02/07/11 14:38:47 1126164800     INFO    poll motor  {src/dhs_monitor.cc 90  }
+02/07/11 14:38:47 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:47 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    dhs -> {htos_update_motor_position gonio_phi 369.999985 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:47 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    RPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> RPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    axis:A current: 3699332,  reference: 3699332 {src/dmc2180API.cc 1321  }
+02/07/11 14:38:47 1115674944     INFO    STOP LEVEL1: motor stop code: 1 {src/dmc2180API.cc 1325  }
+02/07/11 14:38:47 1115674944     INFO    MG _BGA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> MG _BGA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    STOP LEVEL2: controller ready to receive new move command {src/dmc2180API.cc 1334  }
+02/07/11 14:38:47 1115674944     INFO    STOP LEVEL3b: motor stopped normally {src/dmc2180API.cc 1361  }
+02/07/11 14:38:47 1115674944     INFO    isMoving: STOP LEVEL4b: (reference - position) < 5  {src/dmc2180API.cc 1368  }
+02/07/11 14:38:47 1115674944     INFO    SCA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> SCA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  1
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 ->  3699332
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    dhs -> {htos_motor_move_completed gonio_phi 369.999985 normal} {src/dhs_network.cc 173  }
+02/07/11 14:38:47 1783461904     INFO    in <- {stoh_correct_motor_position gonio_phi -360} {src/dhs_network.cc 106  }
+02/07/11 14:38:47 1115674944     INFO    DPA=99982 {src/dmc2180API.cc 1557  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10-> DPA=99982 {src/dmc2180API.cc 390  }
+02/07/11 14:38:47 1115674944     INFO    bl122ga10 -> : {src/dmc2180API.cc 449  }
+02/07/11 14:38:47 1115674944     INFO    DMC2180: polling device 0 {src/dhs_dmc2180.cc 1051  }
+02/07/11 14:38:48 1783461904     INFO    in <- {stoh_start_motor_move gonio_phi -10.000000} {src/dhs_network.cc 106  }
+02/07/11 14:38:48 1115674944     INFO    TPA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:48 1115674944     INFO    bl122ga10-> TPA {src/dmc2180API.cc 390  }
+02/07/11 14:38:48 1115674944     INFO    bl122ga10 ->  99981
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:48 1115674944     INFO    MG _MOA {src/dmc2180API.cc 1557  }
+02/07/11 14:38:48 1115674944     INFO    bl122ga10-> MG _MOA {src/dmc2180API.cc 390  }
+02/07/11 14:38:48 1115674944     INFO    bl122ga10 ->  0.0000
+: {src/dmc2180API.cc 449  }
+02/07/11 14:38:48 1115674944     INFO    PAA=-99982 {src/dmc2180API.cc 1557  }

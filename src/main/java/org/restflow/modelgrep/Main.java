@@ -1,4 +1,4 @@
-package ssrl.modelgrep;
+package org.restflow.modelgrep;
 
 import static java.util.Arrays.asList;
 
@@ -54,7 +54,7 @@ public class Main {
 			return;
 		}
 
-		Constructor c = new Constructor("ssrl.modelgrep.ModelGrep");
+		Constructor c = new Constructor("org.restflow.modelgrep.ModelGrep");
 		Yaml yaml = new Yaml(c);
 		
 		FileInputStream fis = new FileInputStream(def);

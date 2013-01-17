@@ -11,6 +11,9 @@ import java.util.Vector;
 
 import junit.framework.TestCase;
 
+import org.restflow.modelgrep.ModelGrep;
+import org.restflow.modelgrep.RegExUtil;
+import org.restflow.modelgrep.RegularExpressionWithModel;
 import org.yaml.snakeyaml.Yaml;
 
 

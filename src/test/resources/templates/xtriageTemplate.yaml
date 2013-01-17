@@ -1,4 +1,4 @@
-!!ssrl.modelgrep.ModelGrep
+!!org.restflow.modelgrep.ModelGrep
   absorbWhiteSpaceSymbol: "~"
   template: 
     - '{header:NZ_TEST_HEADER}{nztest[]:NZ_TEST}'

@@ -1,4 +1,4 @@
-package ssrl.modelgrep;
+package org.restflow.modelgrep;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

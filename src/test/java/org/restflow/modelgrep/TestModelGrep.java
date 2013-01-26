@@ -1,4 +1,4 @@
-package ssrl.modelgrep;
+package org.restflow.modelgrep;
 
 import java.io.BufferedInputStream;
 import java.io.File;

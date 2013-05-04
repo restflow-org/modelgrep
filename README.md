@@ -78,7 +78,7 @@ The special characters include:
 For example, if the text to be parsed had curly braces instead of pipes, the template author could switch to a different template definition:
 
 
-In the following modified file, curly braces have been switch with the pipe symbol to show how escaping can be avoided:
+In the following modified file, curly braces have replaced the pipe symbol to demonstrate:
 
     Author: Roger Zelazny
     
@@ -90,7 +90,7 @@ In the following modified file, curly braces have been switch with the pipe symb
     +-----------+-------------------------+------------------+
 
 
-We create new parser with special matching tokens to avoid escaping the curly braces which are now used to anchor the text to be parsed:
+We create a new parser and redefine the open and closing symbols used to indicate a variable to be extracted. In this example two characters are used to open `(-` and two characters are used to close `-)`. The curly braces are now free to be used in the template to anchor the text to be extracted:
 
     absorbWhiteSpaceSymbol: "~"
     _tokenMatcherPrefix: "(-"

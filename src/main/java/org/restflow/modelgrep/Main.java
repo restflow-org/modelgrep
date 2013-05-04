@@ -28,12 +28,12 @@ public class Main {
 				return;
 			}
 			
-			if (options.has("d")) {
-				def = (String)options.valueOf("d");
+			if (options.has("t")) {
+				def = (String)options.valueOf("t");
 			}
 			
-			if (options.has("r")) {
-				resource = (String)options.valueOf("r");
+			if (options.has("f")) {
+				resource = (String)options.valueOf("f");
 			}
 
 			
@@ -45,12 +45,12 @@ public class Main {
 		}
 
 		if (def == null) {
-			System.err.print("must set d");
+			System.err.print("must set t (template file)");
 			return;
 		}
 
 		if (resource == null) {
-			System.err.print("must set resource to search");
+			System.err.print("must set f (file to search)");
 			return;
 		}
 
@@ -77,11 +77,11 @@ public class Main {
 			parser = new OptionParser() {
 			{
 				acceptsAll(asList("h", "?"), "show help");
-				acceptsAll(asList("t", "enable-trace"), "enable trace");
-				acceptsAll(asList("d"), "yaml definition")
+				acceptsAll(asList("v", "verbose"), "verbose");
+				acceptsAll(asList("t"), "template in yaml format")
 				.withRequiredArg().ofType(String.class)
 				.describedAs("file");
-				acceptsAll(asList("r"), "resource to search")				
+				acceptsAll(asList("f"), "file to search")				
 				.withRequiredArg().ofType(String.class)
 				.describedAs("file");
 				}

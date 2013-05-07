@@ -53,7 +53,7 @@ Example template to parse the above text: (available in src/test/resources/templ
 
 To it from the root modelgrep directory with the test resources provided:
 
-    java -jar target/ModelGrep-2.1-jar-with-dependencies.jar -d src/test/resources/templates/sqlTable.yaml -r src/test/resources/samples/sqlTable.txt
+    java -jar target/ModelGrep-2.1-jar-with-dependencies.jar -t src/test/resources/templates/sqlTable.yaml -f src/test/resources/samples/sqlTable.txt
 
 The parser will dump the model in yaml format.
 
